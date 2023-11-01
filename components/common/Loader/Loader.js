@@ -1,8 +1,7 @@
 import React from "react";
-import PropTypes from "prop-types";
 import { Spinner } from "@chakra-ui/react";
 
-const Loader = ({ children }) => {
+const Loader = () => {
   return (
     <Spinner
       thickness="4px"
@@ -12,14 +11,6 @@ const Loader = ({ children }) => {
       size="xl"
     />
   );
-};
-
-Loader.propTypes = {
-  children: PropTypes.node,
-};
-
-Loader.defaultProps = {
-  children: null,
 };
 
 export default Loader;

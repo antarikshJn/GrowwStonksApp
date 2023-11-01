@@ -1,4 +1,4 @@
-import AutoSuggest from "@/components/AutoSuggest";
+import React from "react";
 
 const Footer = () => {
   return (

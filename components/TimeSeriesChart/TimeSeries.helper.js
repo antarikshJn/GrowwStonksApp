@@ -1,5 +1,4 @@
 import {
-  MONTH_INDEX_VS_LABEL,
   TIME_SERIES_DURATION,
 } from "./TimeSeries.constant";
 

@@ -11,7 +11,7 @@ const AutoSuggest = () => {
   const [query, setQuery] = useState("");
   const router = useRouter();
 
-  const { isFetching, data } = useSearchCompaniesQuery(query, {
+  const { data } = useSearchCompaniesQuery(query, {
     skip: isValidQuery(query),
   });
   const [suggestions, setSuggestions] = useState([]);

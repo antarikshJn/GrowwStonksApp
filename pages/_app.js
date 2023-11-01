@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 import { Provider } from "react-redux";
 import { ChakraProvider } from "@chakra-ui/react";
 
@@ -19,3 +20,13 @@ export default function App({ Component, pageProps }) {
     </ChakraProvider>
   );
 }
+
+App.propTypes = {
+  Component: PropTypes.node,
+  pageProps: PropTypes.object,
+};
+
+App.defaultProps = {
+  Component: null,
+  pageProps: {},
+};
