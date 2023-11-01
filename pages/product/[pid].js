@@ -3,7 +3,7 @@ import { useRouter } from "next/router";
 
 import Loader from "@/components/common/Loader";
 import TimeSeriesChart from "@/components/TimeSeriesChart";
-import ProductHeader from "@/components/ProductHeader";
+import ProductHeader from "@/components/productHeader/ProductHeader";
 import ProductInfo from "@/components/ProductInfo";
 
 import {
