@@ -1,0 +1,27 @@
+.header {
+  border-bottom: 1px solid var(--gray200);
+  min-height: 64px;
+  box-sizing: border-box;
+  padding: 16px;
+}
+
+.headerMenu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: max-content;
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .headerMenu {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+  }
+}

@@ -1,0 +1,21 @@
+.companyInfoStat {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 1em;
+}
+
+.companySummaryWithAvataar {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.companySummary {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  padding: 0 8px;
+}

@@ -1,0 +1,12 @@
+.companyInfo {
+  border: 1px solid var(--gray100);
+  border-radius: 6px;
+  box-sizing: border-box;
+  padding: 16px;
+  margin: 8px 0;
+}
+
+.aboutCompany {
+  box-sizing: border-box;
+  padding-bottom: 16px;
+}
